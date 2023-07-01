@@ -1,0 +1,22 @@
+{
+  "name": "fighting-tales",
+  "version": "1.0.0",
+  "description": "fighting game with chracters from fairy tales and mythology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasRoeding/fighting-tales.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukasRoeding/fighting-tales/issues"
+  },
+  "homepage": "https://github.com/LukasRoeding/fighting-tales#readme",
+  "dependencies": {
+    "pixi.js": "^7.2.4"
+  }
+}
