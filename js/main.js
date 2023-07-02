@@ -1,6 +1,6 @@
 import * as PIXI from '../node_modules/pixi.js/dist/pixi.mjs'
 
-let app = new PIXI.Application({ width: 640, height: 360 });
+let app = new PIXI.Application({ width: innerWidth, height: innerHeight });
 document.body.appendChild(app.view);
 let sprite = PIXI.Sprite.from('sample.png');
 app.stage.addChild(sprite);
